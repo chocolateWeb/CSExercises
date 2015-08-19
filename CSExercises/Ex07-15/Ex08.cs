@@ -10,7 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double centigrade;
+            centigrade = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("{0}", 1.8 * centigrade + 32);
         }
     }
 }
