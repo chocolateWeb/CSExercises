@@ -6,7 +6,7 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Enter a number: ");
+            Console.Write("Number: ");
             int input = Convert.ToInt32(Console.ReadLine());
 
             int num = input;            
