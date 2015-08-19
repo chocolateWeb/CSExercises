@@ -11,9 +11,9 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             Console.Write("Distance: ");
-            double dist = Convert.ToInt32(Console.ReadLine());
+            double dist = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Total fare: {0:.00}", Math.Round((2.4 + (3.24 * 0.4)),2));
+            Console.WriteLine("Total fare: ${0:.00}", Math.Round((10 * (2.4 + (dist * 0.4)))) / 10);
         }
     }
 }

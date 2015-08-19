@@ -10,8 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
+            Console.Write("Value of x: "); 
             int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("{0}", (2*x*x) - (4*x) + 3);
+
+            Console.WriteLine("Value of y: {0}", (2 * x * x) - (4 * x) + 3);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Double Input: ");
+            Console.Write("Double: ");
             double num = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Square Root of {0}: {1:.###}", num, Math.Sqrt(num));   
