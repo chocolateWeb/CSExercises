@@ -19,10 +19,10 @@ namespace CSExercises
 
             total = (qtyTV * 900) + (qtyDVD * 500);
 
-            if (total >= 5000 && total < 10000)
+            if (total > 5000 && total < 10000)
                 total = 0.9 * total;
 
-            else if(total >= 10000)
+            else if(total > 10000)
                 total = 0.85 * total;
 
             else { }
