@@ -14,8 +14,10 @@ namespace CSExercises
 
             if(gender.Equals("M") || gender.Equals("m"))
                 Console.WriteLine("Good morning Mr. " + name );
+
             else if (gender.Equals("F") || gender.Equals("f"))
                 Console.WriteLine("Good morning Ms. " + name);
+
             else
                 Console.WriteLine("Good morning " + name);
         }

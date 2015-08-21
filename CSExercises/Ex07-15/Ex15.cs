@@ -17,14 +17,13 @@ namespace CSExercises
                 while(num != 0)
                 {
                     remainder = num % 10;
-
                     armstrong = armstrong + (int)Math.Pow(remainder,3);
-
                     num = num / 10;
                 }
                 
                 if(input == armstrong)
                     Console.WriteLine("Your input is an Armstrong number.");
+
                 else
                     Console.WriteLine("Your input is not an Armstrong number.");
             }
