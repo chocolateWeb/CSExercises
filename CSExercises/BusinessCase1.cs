@@ -10,8 +10,8 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            string[] tenToNinety = new string[10] {"", "Ten", "Twenty", "Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eight", "Nine"};
-            
+            string[] tenToNinety = new string[10] { "", "Ten", "Twenty", "Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eight", "Nine" };
+
             string[] oneToNineteen = new string[20] {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
                 "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen" };
 

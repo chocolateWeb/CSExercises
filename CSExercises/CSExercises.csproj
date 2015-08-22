@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.BusinessCase1</StartupObject>
+    <StartupObject>CSExercises.BusinessCase3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="BusinessCase1.cs" />
     <Compile Include="BusinessCase2.cs" />
+    <Compile Include="BusinessCase3.cs" />
     <Compile Include="Ex01-06\Ex06.cs" />
     <Compile Include="Ex01-06\Ex05.cs" />
     <Compile Include="Ex01-06\Ex04.cs" />
