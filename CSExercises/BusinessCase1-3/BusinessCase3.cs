@@ -12,7 +12,6 @@ namespace CSExercises
         {
             Encrypt("SeazAme94");
         }
-
         public static void Encrypt(string s)
         {
             byte[] asciiBytes = Encoding.ASCII.GetBytes(s);
