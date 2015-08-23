@@ -61,7 +61,6 @@ namespace CSExercises
                     output2 = output2 + s2.Substring(i, 1);
                 }
                 s = output2 + s3 + output1;
-
             }
             Console.WriteLine("Second Transformation: {0}", s);
         }
