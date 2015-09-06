@@ -6,10 +6,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Name: ");
+            Console.Write("Enter name: ");
             string name = Console.ReadLine();
 
-            Console.Write("Gender (m/f): ");
+            Console.Write("Enter gender (m/f): ");
             string gender = Console.ReadLine();
 
             if(gender.Equals("M") || gender.Equals("m"))

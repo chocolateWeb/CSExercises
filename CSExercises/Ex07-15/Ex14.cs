@@ -6,13 +6,13 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Length of a: ");
+            Console.Write("Enter length of a: ");
             double a = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Length of b: ");
+            Console.Write("Enter length of b: ");
             double b = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Length of c: ");
+            Console.Write("Enter length of c: ");
             double c = Convert.ToDouble(Console.ReadLine());
 
             double s = (a + b + c) / 2;

@@ -6,9 +6,8 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Grade: ");
+            Console.Write("Enter marks: ");
             int marks = Convert.ToInt32(Console.ReadLine());
-
             
             if (marks >= 80 && marks <= 100)
                 Console.WriteLine("You scored {0} marks which is A grade.", marks);

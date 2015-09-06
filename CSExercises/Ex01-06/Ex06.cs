@@ -13,7 +13,7 @@ namespace CSExercises
             Console.Write("Integer: ");
             int num = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Square Root of {0}: {1}", num, Math.Sqrt(num));  
+            Console.WriteLine("Square root of {0}: {1}", num, Math.Sqrt(num));  
         }
     }
 }

@@ -22,14 +22,12 @@ namespace CSExercises
             if (total > 5000 && total < 10000)
                 total = 0.9 * total;
 
-            else if(total > 10000)
+            if(total > 10000)
                 total = 0.85 * total;
-
-            else { }
-
-            total = total + (qtyMP3 * 700);
             
-            Console.WriteLine("Total price for this order is {0:c} ", total);            
+            total += qtyMP3 * 700;
+            
+            Console.WriteLine("Total price for this order is {0:c}", total);            
         }
     }
 }

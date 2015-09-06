@@ -8,20 +8,22 @@ namespace CSExercises
         {
             double cost = 0;
 
-            Console.Write("Distance (km): ");
+            Console.Write("Enter distance (km): ");
             double dist = Convert.ToDouble(Console.ReadLine());
 
             dist = Math.Ceiling(dist * 10) / 10;
-            Console.WriteLine("Total cost: {0}", dist);
  
             if (dist > 0)
-                cost = cost + 2.4;
+                cost += 2.4;
             
-            if (dist > 0.5)
-                cost = cost + (dist - 0.5) * 10 * 0.04;
+            if (dist > 0.5 && dist < 9)
+                cost += (dist - 0.5) * 10 * 0.04;
+
+            if (dist > 0.5 && dist >= 9)
+                cost += 8.5 * 10 * 0.04;
             
-            if (dist > 9)
-                cost = cost + (dist - 9) * 10 * 0.05;
+            if (dist >= 9)
+                cost += (dist - 9) * 10 * 0.05;
             
             Console.WriteLine("Total cost: {0:c}", cost); 
         }
